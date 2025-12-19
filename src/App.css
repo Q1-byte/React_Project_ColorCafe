@@ -1,0 +1,130 @@
+.custom-navbar .nav-link {
+  color: #fff !important;
+  font-size: 1.18rem !important;
+  font-weight: 500;
+  margin-right: 14px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  transition: color 0.2s;
+}
+.custom-navbar .nav-link:hover, .custom-navbar .nav-link:focus {
+  color: #b49264 !important;
+}
+.custom-navbar .navbar-brand {
+  font-size: 2rem !important;
+  font-weight: bold;
+  margin-right: 24px !important;
+}
+.custom-navbar .nav-link {
+  font-size: 1.18rem !important;
+  font-weight: 500;
+  margin-right: 14px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+/* 네비게이션 바 폰트 크기 키우기 */
+.custom-navbar .navbar-brand {
+  font-size: 2rem !important;
+  font-weight: bold;
+}
+.custom-navbar .nav-link {
+  font-size: 1.18rem !important;
+  font-weight: 500;
+}
+/* 커스텀 네비게이션 바 배경색 */
+.custom-navbar {
+  background-color: #d2b48c !important;
+}
+.big-img {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+/* 메뉴 이미지 부모: 사각틀 고정, overflow hidden */
+.menu-img-wrap {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.menu-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.menu-img:hover {
+  transform: scale(1.07);
+  box-shadow: none;
+  z-index: 2;
+}
+/* 메뉴 이미지 마우스 오버 효과 */
+.menu-img {
+  transition: transform 0.3s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s cubic-bezier(0.4,0,0.2,1);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.menu-img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 24px rgba(158,133,79,0.18), 0 2px 8px rgba(0,0,0,0.10);
+  z-index: 2;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fcf6ee;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,154 @@
+:root {
+  --bg-main: #fbf6ef;
+  --bg-card: #fff8ee;
+  --primary: #c9a97d;
+  --text-main: #4a3f35;
+  --text-sub: #8b7a66;
+}
+
+body {
+  background: var(--bg-main);
+  color: var(--text-main);
+}
+
+.product-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px 120px;
+}
+
+.about-section {
+  background: var(--bg-card);
+  border-radius: 24px;
+  padding: 70px 80px;
+  margin-bottom: 100px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.about-sub {
+  text-align: center;
+  font-size: 18px;
+  color: var(--text-sub);
+  margin-bottom: 60px;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text h3 {
+  font-size: 26px;
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.about-values {
+  display: grid;
+  gap: 24px;
+}
+
+.value-box {
+  background: #fff;
+  padding: 28px 30px;
+  border-radius: 18px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.04);
+}
+
+.value-box strong {
+  display: block;
+  color: var(--primary);
+  margin-bottom: 6px;
+}
+
+.menu-section-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 40px;
+}
+
+.menu-card {
+  background: #fff;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.06);
+  transition: transform .25s ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-6px);
+}
+
+.menu-img {
+  height: 180px;
+  background: #e9e1d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-sub);
+  font-size: 14px;
+}
+
+.menu-body {
+  padding: 22px 24px 26px;
+}
+
+.menu-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.menu-desc {
+  font-size: 14px;
+  color: var(--text-sub);
+  margin-bottom: 14px;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.btn-cart {
+  background: var(--primary);
+  border: none;
+  border-radius: 14px;
+  padding: 8px 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 50px 30px;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}

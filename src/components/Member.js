@@ -1,0 +1,13 @@
+
+
+import React from 'react';
+
+const Member = () => {
+    return (
+        <div>
+            <h4>Member</h4>
+        </div>
+    );
+};
+
+export default Member;
