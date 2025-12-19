@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React_Project_ColorCafe/static/css/main.e802fd59.css",
-    "main.js": "/React_Project_ColorCafe/static/js/main.cafcfd3a.js",
+    "main.js": "/React_Project_ColorCafe/static/js/main.0e7e733d.js",
     "static/js/453.01f45553.chunk.js": "/React_Project_ColorCafe/static/js/453.01f45553.chunk.js",
     "index.html": "/React_Project_ColorCafe/index.html",
     "main.e802fd59.css.map": "/React_Project_ColorCafe/static/css/main.e802fd59.css.map",
-    "main.cafcfd3a.js.map": "/React_Project_ColorCafe/static/js/main.cafcfd3a.js.map",
+    "main.0e7e733d.js.map": "/React_Project_ColorCafe/static/js/main.0e7e733d.js.map",
     "453.01f45553.chunk.js.map": "/React_Project_ColorCafe/static/js/453.01f45553.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e802fd59.css",
-    "static/js/main.cafcfd3a.js"
+    "static/js/main.0e7e733d.js"
   ]
 }
