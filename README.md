@@ -199,7 +199,12 @@ function shuffle(array) {
 <br>
 
 ## 📑 PPT 자료
-  
+
+<details>
+<summary>발표 자료 이미지 보기</summary>
+
+<br>
+
 ![projectCafe (1)](https://github.com/user-attachments/assets/23568af5-dabc-4ff5-876a-0253be2f1b6f)
 ![projectCafe (2)](https://github.com/user-attachments/assets/375f6d73-8461-4947-987f-c0db4cb63460)
 ![projectCafe (3)](https://github.com/user-attachments/assets/affcbdf9-95aa-4887-89a1-6e3134ce28d1)
@@ -227,6 +232,7 @@ function shuffle(array) {
 ![projectCafe (25)](https://github.com/user-attachments/assets/db7f6847-2eee-4675-8c91-a8ed64fa5a35)
 ![projectCafe (26)](https://github.com/user-attachments/assets/5ef32d0f-7ad9-4f61-99aa-f91977566518)
 
+</details>
 
 ## 💭 프로젝트 회고
 
